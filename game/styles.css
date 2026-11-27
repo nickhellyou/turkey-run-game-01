@@ -1,0 +1,35 @@
+/* Gobble or Gone — page chrome around the canvas. No network assets. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2a1608;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #e0b64f;
+  border-radius: 12px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.6);
+  background: #ffd98a;
+  display: block;
+}
+
+.hint {
+  color: #f5e6c8;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
